@@ -1,6 +1,5 @@
 # Transport Equation Solver
 
-## Overview
 This project implements numerical schemes for solving the one-dimensional transport equation:
 $$\frac{\partial u}{\partial t} + a \frac{\partial u}{\partial x} = 0$$
 using finite difference methods. It compares different discretization schemes and evaluates their accuracy and stability.
