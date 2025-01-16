@@ -1,7 +1,7 @@
 # Transport Equation Solver
 
-This project implements numerical schemes for solving the one-dimensional transport equation:
-$$\frac{\partial u}{\partial t} + a \frac{\partial u}{\partial x} = 0$$
+This project implements numerical schemes for solving the one-dimensional transport equation
+$\frac{\partial u}{\partial t} + a \frac{\partial u}{\partial x} = 0$ with a periodic initial condition
 using finite difference methods. It compares different discretization schemes and evaluates their accuracy and stability.
 
 ## Dependencies
@@ -9,11 +9,6 @@ The code requires the following Python libraries:
 - `numpy` for numerical operations
 - `plotly` for visualization
 - `copy` for deep copying arrays
-
-Install missing dependencies with:
-```sh
-pip install numpy plotly
-```
 
 ## Implementation
 ### Initialization
