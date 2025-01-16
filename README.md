@@ -2,7 +2,7 @@
 
 ## Overview
 This project implements numerical schemes for solving the one-dimensional transport equation:
-\[ \frac{\partial u}{\partial t} + a \frac{\partial u}{\partial x} = 0 \]
+$$ \frac{\partial u}{\partial t} + a \frac{\partial u}{\partial x} = 0 $$
 using finite difference methods. It compares different discretization schemes and evaluates their accuracy and stability.
 
 ## Dependencies
@@ -19,7 +19,7 @@ pip install numpy plotly
 ## Implementation
 ### Initialization
 - Defines the problem parameters (time interval, wave speed, and CFL condition).
-- Specifies the initial condition \( u(x,0) = \sin(2 \pi x) \).
+- Specifies the initial condition $ u(x,0) = \sin(2 \pi x) $.
 - Provides an analytical solution for validation.
 
 ### Spatial and Temporal Discretization
